@@ -28,7 +28,7 @@ A modern, responsive table reservation form built with:
 
 ```bash
 # Clone the repository
-git clone https://github.com/jafethmontero/restaurant-booking-form.git
+git clone https://github.com/jafethmontero/meta-reservation-form.git
 cd restaurant-booking-form
 
 # Install dependencies
