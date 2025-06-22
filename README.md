@@ -1,54 +1,39 @@
-# React + TypeScript + Vite
+# 🍽️ Restaurant Booking Form
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive table reservation form built with:
 
-Currently, two official plugins are available:
+- ⚡ Vite
+- 🟦 TypeScript
+- 🌬️ Tailwind CSS
+- 🪝 React Hook Form
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- Clean and minimal UI with Tailwind CSS
+- Built-in form validation using React Hook Form
+- Responsive layout for mobile and desktop
+- Easily customizable fields (name, email, date, time, guests, and special requests)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🛠️ Tech Stack
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+| Tech            | Description                             |
+| --------------- | --------------------------------------- |
+| Vite            | Fast build tool for modern web apps     |
+| React           | Frontend library                        |
+| TypeScript      | Static typing                           |
+| Tailwind CSS    | Utility-first CSS framework             |
+| React Hook Form | Performant form handling and validation |
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 📦 Installation
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/restaurant-booking-form.git
+cd restaurant-booking-form
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+# Install dependencies
+npm install
+
+# Run the dev server
+npm run dev
 ```
